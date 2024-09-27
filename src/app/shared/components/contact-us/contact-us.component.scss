@@ -1,0 +1,165 @@
+/* General container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+/* Location section styling */
+.location {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Contact form styling */
+.contact-form {
+    flex: 2;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative; /* Add this for positioning the button */
+}
+
+/* Positioning button at the bottom-right for larger screens */
+.contact-form .btn-wrapper {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    text-align: right;
+    width: calc(100% - 40px); /* Ensure button does not overflow */
+}
+
+/* Button styling */
+.btnclass {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(180deg, #84d7a0, #4a94ae);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Disabled button styling */
+.btnclass[disabled] {
+    background-color: #cccccc43;
+}
+
+/* Input and textarea styling */
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Ensure inputs and textarea take full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    outline: none;
+}
+
+/* Phone input styling */
+.phone-input {
+    position: relative;
+}
+
+.phone-input input {
+    width: 100%; /* Ensure input takes full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    outline: none;
+}
+
+/* International phone input styles */
+.iti {
+    width: 100%;
+    box-sizing: border-box; /* Ensure full width */
+}
+
+.iti__flag-container {
+    margin-right: 5px; /* Adjust spacing if necessary */
+}
+
+.redcolor {
+    color: red;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.word-count {
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+/* Links and media icons */
+.links {
+    margin-top: 20px;
+}
+
+.links li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    text-shadow: 0px 0px 2px #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: #0b94da;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.iconsfooter img {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.mediaIcons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        position: static; /* Remove absolute positioning for smaller screens */
+        margin: 0; /* Remove margin for smaller screens */
+    }
+
+    .contact-form .btn-wrapper {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .phone-input {
+        flex-direction: column; /* Stack flag and input on small screens */
+    }
+}

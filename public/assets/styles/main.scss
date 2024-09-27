@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'layout';
+@import 'button';
+@import 'dark-theme';
+@import 'light-theme';
+
+
+body.light-theme {
+    @include theme(light);
+  }
+  
+  body.dark-theme {
+    @include theme(dark);
+  }

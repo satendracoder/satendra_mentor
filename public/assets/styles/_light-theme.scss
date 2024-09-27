@@ -1,0 +1,10 @@
+@import './variables';
+@import './mixins';
+
+body.light-theme {
+  @include theme(light);
+}
+
+.card {
+  background-color: $card-background-light !important;
+}

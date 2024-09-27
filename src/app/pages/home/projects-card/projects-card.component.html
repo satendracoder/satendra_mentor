@@ -1,0 +1,30 @@
+<section class="paid-container" style="background-color: #072538;">
+    <div class="heading">
+        <h2>Projects The company I worked for</h2>
+        <!-- <button class="button" style="padding: 0px 10px !important;">All Projects </button> -->
+    </div>
+    <div class="paid-row">
+        @defer (on viewport) {
+        @for (item of PaidCourse; track item) {
+        <div class="paid-card">
+            <div class="courseImg" [ngStyle]="{'background-image': 'url(' + item.imgName + ')'}">
+                <!-- <img [src]="item.imgName" alt="" srcset=""> -->
+            </div>
+            <div class="paid-title">
+                <h4>{{item.TitleName}}</h4>
+            </div>
+            <div class="paid-icons">
+                <p>{{item.categories}}</p>
+            </div>
+
+            <div class="paid-footer">
+               <button class="button"><a [href]="item.LinkLive" target="_blank" style="color: #fff;">Live</a></button>
+                <button class="button"><a [href]="item.Github" target="_blank" style="color: #fff;">GitHub_Links</a></button>
+            </div>
+        </div>
+        }
+        } @placeholder {
+        <div>Loading..</div>
+        }
+    </div>
+</section>

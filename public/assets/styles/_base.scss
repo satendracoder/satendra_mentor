@@ -1,0 +1,26 @@
+// _base.scss
+
+// CSS Reset (simplified)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  // Base body styles
+  body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $text-color;
+    line-height: 1.6;
+  }
+  
+  // Links
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }

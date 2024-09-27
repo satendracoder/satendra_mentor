@@ -1,0 +1,12 @@
+@import './variables';
+@import './mixins';
+
+body.dark-theme {
+  @include theme(dark);
+}
+
+
+body.card {
+  background-color: $card-background-light !important; // Default light theme color
+}
+

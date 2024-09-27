@@ -1,0 +1,357 @@
+.experience-container {
+    width: 100%;
+    height: 600px;
+    background: #0e1a27;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+
+    .heading {
+        width: 90%;
+        text-align: center;
+    }
+
+    .experience-row {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+
+        .experience-data {
+            max-height: 400px;
+            overflow: auto;
+            background: #072538;
+            border-radius: 10px;
+            padding: 0px 10px;
+            .education-datatop {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 15px;
+                position: sticky;
+                padding: 20px 0px;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    width: 60px;
+                    height: 60px;
+                    background: aliceblue;
+                    border-radius: 5px;
+                }
+            }
+
+            .education-databottom {
+                .education-school {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    .flex-data {
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        gap: 15px;
+                        p{
+                            color: #fff;
+                            background: #304b6f;
+                            padding: 4px 8px;
+                            border-radius: 7px;
+                        }
+                    }
+                    p{
+                        color: #939a9a;
+                    }
+                }
+            }
+        }
+
+                  /* custom scroll bar */
+    .experience-data::-webkit-scrollbar {
+        width: 10px;
+      }
+    
+      .experience-data::-webkit-scrollbar-track {
+        background: transparent;
+      }
+    
+      .experience-data::-webkit-scrollbar-thumb {
+        background-image: linear-gradient(180deg, #25d366, #4b96ae);
+        border-radius: 10px;
+      }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .experience-container {
+        width: 100%;
+        height: 1000px;
+        background: #0e1a27;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    
+        .heading {
+            width: 90%;
+            text-align: center;
+        }
+    
+        .experience-row {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+    
+            .experience-data {
+                max-height: 400px;
+                overflow: auto;
+                background: #072538;
+                border-radius: 10px;
+                padding: 0px 10px;
+                .education-datatop {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 15px;
+                    position: sticky;
+                    padding: 20px 0px;
+    
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        width: 60px;
+                        height: 60px;
+                        background: aliceblue;
+                        border-radius: 5px;
+                    }
+                }
+    
+                .education-databottom {
+                    .education-school {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+    
+                        .flex-data {
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            gap: 15px;
+                            p{
+                                color: #fff;
+                                background: #304b6f;
+                                padding: 4px 8px;
+                                border-radius: 7px;
+                            }
+                        }
+                        p{
+                            color: #939a9a;
+                        }
+                    }
+                }
+            }
+    
+                      /* custom scroll bar */
+        .experience-data::-webkit-scrollbar {
+            width: 10px;
+          }
+        
+          .experience-data::-webkit-scrollbar-track {
+            background: transparent;
+          }
+        
+          .experience-data::-webkit-scrollbar-thumb {
+            background-image: linear-gradient(180deg, #25d366, #4b96ae);
+            border-radius: 10px;
+          }
+        }
+    }  
+}
+
+
+@media screen and (max-width:480px) {
+    .experience-container {
+        width: 100%;
+        height: 1000px;
+        background: #0e1a27;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    
+        .heading {
+            width: 90%;
+            text-align: center;
+        }
+    
+        .experience-row {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+    
+            .experience-data {
+                max-height: 400px;
+                overflow: auto;
+                background: #072538;
+                border-radius: 10px;
+                padding: 0px 10px;
+                .education-datatop {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 15px;
+                    position: sticky;
+                    padding: 20px 0px;
+    
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        width: 60px;
+                        height: 60px;
+                        background: aliceblue;
+                        border-radius: 5px;
+                    }
+                }
+    
+                .education-databottom {
+                    .education-school {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        font-size: 13px;
+                        .flex-data {
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            gap: 15px;
+                            p{
+                                color: #fff;
+                                background: #304b6f;
+                                padding: 4px 8px;
+                                border-radius: 7px;
+                                font-size: 13px;
+                            }
+                        }
+                        p{
+                            color: #939a9a;
+                        }
+                    }
+                }
+            }
+    
+                      /* custom scroll bar */
+        .experience-data::-webkit-scrollbar {
+            width: 10px;
+          }
+        
+          .experience-data::-webkit-scrollbar-track {
+            background: transparent;
+          }
+        
+          .experience-data::-webkit-scrollbar-thumb {
+            background-image: linear-gradient(180deg, #25d366, #4b96ae);
+            border-radius: 10px;
+          }
+        }
+    }  
+}
+
+
+@media screen and (max-width:360px) {
+    .experience-container {
+        width: 100%;
+        height: 1000px;
+        background: #0e1a27;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    
+        .heading {
+            width: 90%;
+            text-align: center;
+        }
+    
+        .experience-row {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+    
+            .experience-data {
+                max-height: 400px;
+                overflow: auto;
+                background: #072538;
+                border-radius: 10px;
+                padding: 0px 10px;
+                .education-datatop {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 15px;
+                    position: sticky;
+                    padding: 20px 0px;
+    
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        width: 60px;
+                        height: 60px;
+                        background: aliceblue;
+                        border-radius: 5px;
+                    }
+                }
+    
+                .education-databottom {
+                    .education-school {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        font-size: 13px;
+                        .flex-data {
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            gap: 15px;
+                            p{
+                                color: #fff;
+                                background: #304b6f;
+                                padding: 4px 8px;
+                                border-radius: 7px;
+                                font-size: 13px;
+                            }
+                        }
+                        p{
+                            color: #939a9a;
+                        }
+                    }
+                }
+            }
+    
+                      /* custom scroll bar */
+        .experience-data::-webkit-scrollbar {
+            width: 10px;
+          }
+        
+          .experience-data::-webkit-scrollbar-track {
+            background: transparent;
+          }
+        
+          .experience-data::-webkit-scrollbar-thumb {
+            background-image: linear-gradient(180deg, #25d366, #4b96ae);
+            border-radius: 10px;
+          }
+        }
+    }  
+}

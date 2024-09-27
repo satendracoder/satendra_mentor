@@ -1,0 +1,24 @@
+<section class="blog-container" >
+  <div class="heading">
+    <h2>Blog The company I worked for</h2>
+    <!-- <button class="button" style="padding: 0px 10px !important;">All Blogs </button> -->
+  </div>
+
+  <div class=container>
+@for (item of Blog_data; track item) {
+  <a [href]="item.blog_url" target="_blank">
+    <div class=card>
+      <div class=image>
+        <img [src]="item.blog_image">
+        <img src="/public/" alt="">
+      </div>
+      <div class=content>
+        <h3>{{item.blog_title}}</h3>
+        <p>{{item.blog_description}}</p>
+      </div>
+    </div>
+  </a>
+}
+    
+  </div>
+</section>
