@@ -1,19 +1,19 @@
 // _mixins.scss
 @mixin theme($theme) {
   @if $theme == 'dark' {
-    background-color: $background-color-dark;
+    background-color: $background-color-dark !important;
     color: $text-color-dark;
   } @else if $theme == 'light' {
-    background-color: $background-color-light;
+    background-color: $background-color-light !important;
     color: $text-color-light;
   }
 }
 
 @mixin custom-background($theme) {
   @if $theme == 'dark' {
-    background-color: $custom-background-dark;
+    background-color: $custom-background-dark !important;
   } @else if $theme == 'light' {
-    background-color: $custom-background-light;
+    background-color: $custom-background-light !important;
   }
 }
 

@@ -39,10 +39,17 @@ export class TestimonialCardComponent {
     //   webitelink: 'https://www.ssbrinet.in'
     // },
     {
-      image: '/assets/images/ssbrinet.png',
+      image: '/assets/images/codelekhak.png',
       text: "From start to finish, the team was incredibly professional and responsive. Everything I needed was delivered on time and within budget. Their expertise and customer-focused approach made the entire process smooth and stress-free.",
-      client: 'Mr.Satendra Rajput<br>at Ssbr iNet',
-      webitelink: 'https://www.ssbrinet.com'
+      client: 'Mr.Satendra Rajput(Founder)<br>at Code_Lekhak',
+      webitelink: 'https://www.codelekhak.com/'
+    },
+
+    {
+      image: '/assets/images/codelekhak.png',
+      text: "From start to finish, the team was incredibly professional and responsive. Everything I needed was delivered on time and within budget. Their expertise and customer-focused approach made the entire process smooth and stress-free.",
+      client: 'Mr.Apoorv Mehra(CA)<br>at Redmil',
+      webitelink: 'https://www.codelekhak.com/'
     },
 
   ];

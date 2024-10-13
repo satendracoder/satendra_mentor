@@ -1,7 +1,7 @@
 <div class="wrapping-what-container" style="z-index: 99;background-color: #010107 ;">
   <div class="wrapping-what-row">
     <div class="testimonial-heading">
-      <h1>WHAT OUR CLIENTS SAY</h1>
+      <h1>WHAT OUR CLIENTS & FRIENDS SAY</h1>
     </div>
     <div class="testimonial-container">
       <div class="image-container">
@@ -13,11 +13,12 @@
           <span class="star">&#9733;</span>
           <span class="star">&#9733;</span>
           <span class="star">&#9733;</span>
-          <span class="star">&#9733;</span><span style="color: #fcf8f8; font-size: 25px;" > 5.0</span>
-      </div>
+          <span class="star">&#9733;</span><span style="color: #fcf8f8; font-size: 25px;"> 5.0</span>
+        </div>
         <p class="testimonial-text" [innerHTML]="currentTestimonial.text"></p>
         <span class="client-details" [innerHTML]="currentTestimonial.client"></span>
-        <p><a [href]="currentTestimonial.webitelink" target="_blank" style="z-index: 999;  color: #FFD700;">Website</a></p>
+        <p><a [href]="currentTestimonial.webitelink" target="_blank" style="z-index: 999;  color: #FFD700;">Website</a>
+        </p>
       </div>
       <div class="navigation-buttons">
         <button class="nav-button" id="prev-button" (click)="onPrevButtonClick()">
