@@ -24,7 +24,7 @@ export class ProjectsCardComponent {
       TitleName: "Paint Protecation flim(PPF)",
       categories: "Created visually appealing design pages for PPF designs and implemented detailed car listings",
       Github: "https://github.com/satendra-rajput",
-      LinkLive: "https://ppf-project.vercel.app/",
+      LinkLive: "https://eazycool.com.sg/",
     },
 
     {
