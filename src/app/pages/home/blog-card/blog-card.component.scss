@@ -38,6 +38,14 @@
       grid-template-columns: repeat(4, 1fr);
       justify-items: center;
       color: var(--primary-color);
+
+      @media screen and (max-width:768px) {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+  
+      @media screen and (max-width:480px) {
+        grid-template-columns: repeat(1, 1fr) !important; 
+      }
   
       .blog-card {
         background-color: var(--project-bg);
@@ -107,6 +115,7 @@
       .section-title {
         font-size: 2rem;
       }
+      
   
       .blog-card {
         .blog-image {

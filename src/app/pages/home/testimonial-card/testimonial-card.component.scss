@@ -139,7 +139,7 @@
         width: 100%;
         height: 500px;
         margin: auto;
-        background-image:url("/assets/images/bk.jpg");
+       background-image:url("/assets/images/bk.jpg");
         background-repeat: no-repeat;
         background-size:100%, cover;
         background-position: bottom;
@@ -182,7 +182,7 @@
         height: 300px;
         max-width: 100%;
         z-index: -1;
-        background-color: #304b6f;
+        //background-color: #304b6f;
       }
       
       .image-container {
@@ -227,7 +227,7 @@
       }
       
       .nav-button {
-        background-color: #fff;
+        //background-color: #fff;
         border: none;
         padding: 6px 9px;
         margin: 0 5px;
@@ -275,7 +275,6 @@
         width: 100%;
         height: 500px;
         margin: auto;
-        background-image:url("/assets/images/bk.jpg");
         background-repeat: no-repeat;
         background-size:100%, cover;
         background-position: bottom;
@@ -292,7 +291,7 @@
       .testimonial-heading {
         text-align: center;
         color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        //text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
       
       .testimonial-heading h1 {
@@ -300,7 +299,7 @@
         font-weight: bolder;
         width: 50%;
         font-family: 'ethnocentric';
-        text-shadow: 1px 1px 6px #000;
+        //text-shadow: 1px 1px 6px #000;
       
       }
       
@@ -312,13 +311,13 @@
         position: relative;
         //background-image: linear-gradient(180deg, #84d7a0c4, #4a94aead);
         // border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         margin: 50px auto;
         width: 90%;
         height: 300px;
         max-width: 100%;
         z-index: -1;
-        background-color: #304b6f;
+       // background-color: #304b6f;
       }
       
       .image-container {
@@ -336,7 +335,6 @@
       
       .text-container {
         flex: 2;
-        color: #fff;
         padding: 20px;
       }
       
@@ -345,7 +343,6 @@
         font-weight: bold;
         margin: 10px 0;
         font-family: 'mypoppinsRegular';
-        text-shadow: 1px 1px 2px #000;
       }
       
       .client-details {
@@ -363,13 +360,11 @@
       }
       
       .nav-button {
-        background-color: #fff;
         border: none;
         padding: 6px 9px;
         margin: 0 5px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 1.5em;
         transition: background-color 0.3s;
         img{
@@ -412,7 +407,6 @@
         width: 100%;
         height: 500px;
         margin: auto;
-        background-image:url("/assets/images/bk.jpg") !important;
         background-repeat: no-repeat;
         background-size:100%, cover;
         background-position: bottom;
@@ -428,8 +422,8 @@
       
       .testimonial-heading {
         text-align: center;
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+        //text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
       }
       
       .testimonial-heading h1 {
@@ -437,7 +431,7 @@
         font-weight: bolder;
         width: 50%;
         font-family: 'ethnocentric';
-        text-shadow: 1px 1px 6px #000;
+        //text-shadow: 1px 1px 6px #000;
       
       }
       
@@ -449,13 +443,13 @@
         position: relative;
         //background-image: linear-gradient(180deg, #84d7a0c4, #4a94aead);
         // border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        //box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         margin: 50px auto;
         width: 90%;
         height: 300px;
         max-width: 100%;
         z-index: -1;
-        background-color: #304b6f;
+        //background-color: #304b6f;
       }
       
       .image-container {
@@ -473,7 +467,7 @@
       
       .text-container {
         flex: 2;
-        color: #fff;
+        //color: #fff;
         padding: 20px;
       }
       
@@ -483,12 +477,12 @@
         letter-spacing: 0px;
         margin: 5px 0;
         font-family:Arial, Helvetica, sans-serif;
-        text-shadow: 1px 1px 2px #000;
+        //text-shadow: 1px 1px 2px #000;
       }
       
       .client-details {
         font-size:14px;
-        color: #fff;
+        //color: #fff;
         font-family: 'mypoppinsRegular';
       }
       
@@ -501,13 +495,13 @@
       }
       
       .nav-button {
-        background-color: #fff;
+        //background-color: #fff;
         border: none;
         padding: 6px 9px;
         margin: 0 5px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        //box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 1.5em;
         transition: background-color 0.3s;
         img{
@@ -524,7 +518,7 @@
       .star-rating {
           display: inline-block;
           font-size: 3rem; /* Adjust the size of the stars */
-          color: #FFD700; /* Gold color for stars */
+
       }
       
       .star {
@@ -561,8 +555,7 @@
   
   .testimonial-heading {
       text-align: center;
-      color: #fff;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
   .testimonial-heading h1 {
@@ -572,7 +565,7 @@
       font-family: "mypoppinsextrabolt";
       margin-left: 13px;
       margin-bottom: -112px;
-      text-shadow: 1px 1px 6px #000;
+   
       position: absolute;
       margin-top: 160px;
   
@@ -586,7 +579,7 @@
       position: relative;
       //background-image: linear-gradient(180deg, #84d7a0c4, #4a94aead);
       // border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      //box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       margin: 50px auto;
       width: 95%;
       height: 400px;
@@ -616,7 +609,6 @@
   
   .text-container {
       flex: 2;
-      color: #fff;
       padding: 12px 0px;
       text-align: justify;
   }
@@ -626,12 +618,11 @@
       font-weight: bold;
       margin: 2px 0;
       font-family: 'mypoppinsRegular';
-      text-shadow: 1px 1px 2px #000;
+      
   }
   
   .client-details {
       font-size:12px;
-      color: #fff;
       font-family: 'mypoppinsRegular';
   }
   
@@ -644,13 +635,12 @@
   }
   
   .nav-button {
-      background-color: #fff;
+      //background-color: #fff;
       border: none;
       padding: 4px 7px;
       margin: 0 5px;
       border-radius: 50%;
       cursor: pointer;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
       font-size: 1.5em;
       transition: background-color 0.3s;
       img{
@@ -684,8 +674,6 @@
     
     .testimonial-heading {
         text-align: center;
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     .testimonial-heading h1 {
@@ -695,7 +683,6 @@
         font-family: "mypoppinsextrabolt";
         margin-left: 13px;
         margin-bottom: -112px;
-        text-shadow: 1px 1px 6px #000;
         position: absolute;
         margin-top: 160px;
     
@@ -708,8 +695,7 @@
         padding: 20px;
         position: relative;
         //background-image: linear-gradient(180deg, #84d7a0c4, #4a94aead);
-        // border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
         margin: 50px auto;
         width: 95%;
         height: 400px;
@@ -739,7 +725,7 @@
     
     .text-container {
         flex: 2;
-        color: #fff;
+        //color: #fff;
         padding: 12px 0px;
         text-align: justify;
     }
@@ -748,14 +734,10 @@
         font-size: 13px;
         font-weight: bold;
         margin: 2px 0;
-        font-family: 'mypoppinsRegular';
-        text-shadow: 1px 1px 2px #000;
     }
     
     .client-details {
         font-size:12px;
-        color: #fff;
-        font-family: 'mypoppinsRegular';
     }
     
     .navigation-buttons {
@@ -767,13 +749,12 @@
     }
     
     .nav-button {
-        background-color: #fff;
+        //background-color: #fff;
         border: none;
         padding: 4px 7px;
         margin: 0 5px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 1.5em;
         transition: background-color 0.3s;
         img{
@@ -807,8 +788,6 @@
     
     .testimonial-heading {
         text-align: center;
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     
     .testimonial-heading h1 {
@@ -818,7 +797,6 @@
         font-family: "mypoppinsextrabolt";
         margin-left: 13px;
         margin-bottom: -112px;
-        text-shadow: 1px 1px 6px #000;
         position: absolute;
         margin-top: 160px;
     
@@ -830,9 +808,6 @@
         justify-content: center;
         padding: 20px;
         position: relative;
-        //background-image: linear-gradient(180deg, #84d7a0c4, #4a94aead);
-        // border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         margin: 50px auto;
         width: 95%;
         height: 400px;
@@ -862,7 +837,6 @@
     
     .text-container {
         flex: 2;
-        color: #fff;
         padding: 12px 0px;
         text-align: justify;
     }
@@ -871,14 +845,10 @@
         font-size: 13px;
         font-weight: bold;
         margin: 2px 0;
-        font-family: 'mypoppinsRegular';
-        text-shadow: 1px 1px 2px #000;
     }
     
     .client-details {
         font-size:12px;
-        color: #fff;
-        font-family: 'mypoppinsRegular';
     }
     
     .navigation-buttons {
@@ -891,13 +861,12 @@
     }
     
     .nav-button {
-        background-color: #fff;
+
         border: none;
         padding: 4px 7px;
         margin: 0 5px;
         border-radius: 50%;
         cursor: pointer;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         font-size: 1.5em;
         transition: background-color 0.3s;
         img{
