@@ -113,7 +113,7 @@
             .experience-data {
                 max-height: 400px;
                 overflow: auto;
-                background: #072538;
+                //background: #072538;
                 border-radius: 10px;
                 padding: 0px 10px;
                 .education-datatop {
@@ -129,7 +129,7 @@
                         height: 60px;
                         width: 60px;
                         height: 60px;
-                        background: aliceblue;
+                       // background: aliceblue;
                         border-radius: 5px;
                     }
                 }
@@ -146,15 +146,12 @@
                             align-items: center;
                             gap: 15px;
                             p{
-                                color: #fff;
-                                background: #304b6f;
+
                                 padding: 4px 8px;
                                 border-radius: 7px;
                             }
                         }
-                        p{
-                            color: #939a9a;
-                        }
+                       
                     }
                 }
             }
@@ -181,7 +178,6 @@
     .experience-container {
         width: 100%;
         height: 1000px;
-        background: #0e1a27;
         display: flex;
         flex-direction: column;
         padding: 20px 0px;
@@ -203,7 +199,7 @@
             .experience-data {
                 max-height: 400px;
                 overflow: auto;
-                background: #072538;
+                //background: #072538;
                 border-radius: 10px;
                 padding: 0px 10px;
                 .education-datatop {
@@ -219,7 +215,7 @@
                         height: 60px;
                         width: 60px;
                         height: 60px;
-                        background: aliceblue;
+                        //background: aliceblue;
                         border-radius: 5px;
                     }
                 }
@@ -236,16 +232,14 @@
                             align-items: center;
                             gap: 15px;
                             p{
-                                color: #fff;
-                                background: #304b6f;
+                                //color: #fff;
+                                //background: #304b6f;
                                 padding: 4px 8px;
                                 border-radius: 7px;
                                 font-size: 13px;
                             }
                         }
-                        p{
-                            color: #939a9a;
-                        }
+                      
                     }
                 }
             }
@@ -272,7 +266,7 @@
     .experience-container {
         width: 100%;
         height: 1000px;
-        background: #0e1a27;
+        //background: #0e1a27;
         display: flex;
         flex-direction: column;
         padding: 20px 0px;
@@ -294,7 +288,7 @@
             .experience-data {
                 max-height: 400px;
                 overflow: auto;
-                background: #072538;
+                //background: #072538;
                 border-radius: 10px;
                 padding: 0px 10px;
                 .education-datatop {
@@ -310,7 +304,7 @@
                         height: 60px;
                         width: 60px;
                         height: 60px;
-                        background: aliceblue;
+                        //background: aliceblue;
                         border-radius: 5px;
                     }
                 }
@@ -327,8 +321,7 @@
                             align-items: center;
                             gap: 15px;
                             p{
-                                color: #fff;
-                                background: #304b6f;
+                            
                                 padding: 4px 8px;
                                 border-radius: 7px;
                                 font-size: 13px;
