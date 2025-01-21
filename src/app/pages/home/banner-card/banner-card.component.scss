@@ -1,5 +1,5 @@
 .banner {
-    background-color: #222b45;
+    background-color:var(--banner-bg);
     padding-top: 60px;
     display: flex;
     justify-content: space-around;
@@ -7,6 +7,7 @@
     flex-wrap: nowrap;
     min-height: 600px;
     padding: 65px 80px;
+    color: var(--primary-color);
 }
 
 .text-container {
@@ -40,7 +41,7 @@
 .banner-tut-icons img{
     width: 35px;
     height: 35px;
-    border: 1px solid #25d366;
+    border: 1px solid var(--primary-btn-bg);
     border-radius: 50px;
     margin: 0px 6px;
     cursor:pointer;
@@ -58,7 +59,7 @@
 }
 
 .text-container .btn-banner {
-    background:#25d366;
+    background:var(--primary-btn-bg);
     padding: 8px 14px;
     border-radius: 5px;
     font-size: 20px;
@@ -68,8 +69,8 @@
 }
 
 .text-container .btn-banner:hover {
-    background: #26A69A;
-    color: #fff;
+    background: var(--primary-btn-bg);
+    color: var(--primary-color);
     // padding: 8px 16px;
     transform: skewX(10deg);
     box-shadow: 0px 0px 10px #26A69A;
@@ -87,7 +88,7 @@
 }
 
 .text-container p span {
-    color: #26A69A;
+    color: var(--primary-btn-bg);
     padding: 0px 5px;
     white-space: nowrap;
     overflow: hidden;
@@ -99,7 +100,7 @@
     font-weight: 600;
     font-size: 22px;
     padding: 0px;
-    color: #25d366;
+    color: var(--primary-btn-bg);
     white-space: nowrap;
     animation: typing 10s steps(38) infinite;
 }
@@ -142,9 +143,9 @@
     height: 350px;
     outline: 10px dashed #FCE4EC;
     border-radius: 50%;
-    border: 10px solid #25d366;
+    border: 10px solid var(--primary-btn-bg);
     box-shadow: 5px 2px 40px #6610f2;
-    filter: drop-shadow(0px 0px 42px #25d366);
+    filter: drop-shadow(0px 0px 42px var(--primary-btn-bg));
 }
 
 .image-container img:hover {
@@ -253,7 +254,7 @@
 .scroll-content{
     width: 100%;
     height: 50px;
-    background-image: linear-gradient(180deg, #072538, #25d366);
+    background-image: linear-gradient(180deg, #072538, var(--primary-btn-bg));
     .scroll-content{
         width: 100%;
         margin: auto;

@@ -1,4 +1,4 @@
-<div class="wrapping-what-container" style="z-index: 99;background-color: #010107 ;">
+<div class="wrapping-what-container" style="z-index: 99;background-color:var(--project-bg);">
   <div class="wrapping-what-row">
     <div class="testimonial-heading">
       <h1>WHAT OUR CLIENTS & FRIENDS SAY</h1>
@@ -13,11 +13,11 @@
           <span class="star">&#9733;</span>
           <span class="star">&#9733;</span>
           <span class="star">&#9733;</span>
-          <span class="star">&#9733;</span><span style="color: #fcf8f8; font-size: 25px;"> 5.0</span>
+          <span class="star">&#9733;</span><span style="color:var(--primary-color); font-size: 25px;"> 5.0</span>
         </div>
-        <p class="testimonial-text" [innerHTML]="currentTestimonial.text"></p>
-        <span class="client-details" [innerHTML]="currentTestimonial.client"></span>
-        <p><a [href]="currentTestimonial.webitelink" target="_blank" style="z-index: 999;  color: #FFD700;">Website</a>
+        <p class="testimonial-text" [innerHTML]="currentTestimonial.text" style="color: var(--primary-color);"></p>
+        <span class="client-details" [innerHTML]="currentTestimonial.client" style="color: var(--primary-color);"></span>
+        <p><a [href]="currentTestimonial.webitelink" target="_blank" style="z-index: 999;  color:var(--primary-btn-bg); font-weight: bold;">Website</a>
         </p>
       </div>
       <div class="navigation-buttons">

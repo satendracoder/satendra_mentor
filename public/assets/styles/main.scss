@@ -6,11 +6,3 @@
 @import 'dark-theme';
 @import 'light-theme';
 
-
-body.light-theme {
-    @include theme(light);
-  }
-  
-  body.dark-theme {
-    @include theme(dark);
-  }

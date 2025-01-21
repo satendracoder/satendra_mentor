@@ -1,7 +1,8 @@
 .skills-container{
     width: 100%;
     height: 500px;
-    background-image: url("/assets/images/SDK_bg_120_png-png.png");
+   // background-image: url("/assets/images/SDK_bg_120_png-png.png");
+   background-color:var(--primary-bg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,6 +16,7 @@
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        color:var(--primary-btn-bg);
 
         .skills{
             display: flex;
@@ -28,6 +30,7 @@
                 margin: auto;
                h1{
                 font-size: 46px;
+                
                }
             }
 

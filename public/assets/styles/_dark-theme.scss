@@ -1,12 +1,29 @@
-@import './variables';
-@import './mixins';
+/* Dark theme */
+body.dark-theme {
+    //for body only
+    --primary-bg: #101426;
+    --primary-color: #ddd;
+    --primary-btn-bg:#25d366;
+    --primary-btn-color:#fff;
+    --secondary-bg:#072538;
+    --secondary-color:#222b45;
+    --footer-bg:#010107;
+    --project-bg:#222b45;
+
+     //banner card
+     --banner-bg:#222b45;
+  
+}
 
 body.dark-theme {
-  @include theme(dark);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 
-body.card {
-  background-color: $background-color-dark !important; // Default light theme color
+
+body.dark-theme .dark_mode_1 {
+    background-color: var(--menu-background-color) !important;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 

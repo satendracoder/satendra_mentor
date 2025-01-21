@@ -12,4 +12,11 @@ import { Router } from '@angular/router';
   styleUrl: './skills-card.component.scss'
 })
 export class SkillsCardComponent {
+
+  skills = [
+    { name: 'Angular', description: 'Building dynamic web applications', experience: 3 },
+    { name: 'JavaScript', description: 'Expert in ES6+ features and frameworks', experience: 4 },
+    { name: 'HTML & CSS', description: 'Creating responsive and accessible designs', experience: 5 },
+    { name: 'TypeScript', description: 'Strong typing and advanced features', experience: 3 },
+  ];
 }

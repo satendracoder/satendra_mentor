@@ -3,14 +3,14 @@ nav {
   z-index: 1000;
   width: 100%;
   height: 75px;
-  background-color: #072538;
+  background-color: var(--primary-bg);
   box-shadow: 0px 0px 8px #051a27;
   transition: 500ms;
 
 }
 
 nav.menuscrolled {
-  background-color: #072538;
+  background-color: var(--primary-bg);
   z-index: 9999;
   box-shadow: 0px 0px 8px #ccc;
 }
@@ -44,7 +44,7 @@ nav .wrapper {
 
 .wrapper .logo h2 {
   padding: 0px 20px;
-  color: #25d366;
+  color: var(--primary-btn-bg);
 
 }
 
@@ -61,7 +61,7 @@ nav .wrapper {
 
 
 .nav-links li a {
-  color: #fff;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 14px;
   padding: 9px 20px;
@@ -72,7 +72,7 @@ nav .wrapper {
 .nav-links li a::before {
   content: "";
   position: absolute;
-  background: #25d366;
+  background: #fff;
   width: 0px;
   height: 2px;
   margin-top: 48px;
@@ -95,7 +95,7 @@ mat-icon {
   height: 24px;
   width: 24px;
   overflow: hidden;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 
@@ -116,20 +116,20 @@ mat-icon {
   border-radius: 50px;
   border: 1px solid #ffffff;
   padding: 10px 14px;
-  background: #25d366;
+  background: var(--primary-btn-bg);
   cursor: pointer;
   padding: 10px 12px;
 }
 
 .nav-links li:hover mat-icon {
-  color: #25d366 !important;
+  color: var(--primary-btn-bg) !important;
   cursor: pointer;
   transform: rotate3d(45deg);
 }
 
 .nav-links li a:hover {
-  background: #010107;
-  color: #25d366;
+  background: var(--primary-btn-bg);
+  color: var(--primary-btn-color);
   font-weight: 400;
   border-radius: 10px;
 
@@ -177,7 +177,7 @@ mat-icon {
   border-radius: 0px;
   border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 
@@ -195,20 +195,20 @@ mat-icon {
 }
 
 .loginbtn {
-  background-color: #25d366;
-  color: #fff !important;
+  background-color: var(--primary-btn-bg);
+  color: var(--primary-btn-color) !important;
 }
 
 .loginbtn:hover {
-  color: #25d366 !important;
-  background-color: #010107 !important;
+  color: var( --primary-btn-color) !important;
+  background-color:var(--primary-btn-bg) !important;
   transform: skewX(10deg);
   box-shadow: 0px 0px 10px #26A69A;
   border-radius: 5px !important;
 }
 
 .wrapper .btn {
-  color: #444;
+  color: var(--primary-color);
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -229,7 +229,7 @@ mat-icon {
   .wrapper .btn {
     display: block;
     padding-right: 25px;
-    color: #fff;
+    color: var(--primary-color);
   }
 
   .wrapper.logo img {
@@ -248,7 +248,7 @@ mat-icon {
     max-width: 100%;
     top: 0;
     left: -100%;
-    background: #072538;
+    background: var(--primary-bg);
     display: block;
     padding: 50px 0px;
     line-height: 50px;
@@ -267,11 +267,11 @@ mat-icon {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #25d366;
+    background: var(--primary-btn-bg);
     border-radius: 10px;
   }
 
-  mat-icon[_ngcontent-ng-c1435164655] {
+  mat-icon{
     -webkit-user-select: none;
     user-select: none;
     background-repeat: no-repeat;
@@ -279,9 +279,9 @@ mat-icon {
     fill: currentColor;
     height: 24px;
     width: 24px;
-    margin-left: 20px;
+    margin-left: 20px !important;
     overflow: hidden;
-    color: #fff;
+    color: var(--primary-color);
   }
 
   #menu-btn:checked~.nav-links {
@@ -290,12 +290,12 @@ mat-icon {
 
   #menu-btn:checked~.btn.menu-btn {
     display: block;
-    color: #fff;
+    color: var(--primary-color);
   }
 
   #close-btn:checked~.btn.menu-btn {
     display: block;
-    color: #fff;
+    color: var(--primary-color);
   }
 
 
@@ -361,7 +361,7 @@ mat-icon {
 
   .nav-links .mobile-item {
     display: block;
-    color: #fff;
+    color: var(--primary-color);
     font-size: 20px;
     padding-left: 20px;
     cursor: pointer;
@@ -370,8 +370,8 @@ mat-icon {
   }
 
   .nav-links .mobile-item:hover {
-    background: #010107;
-    color: #fff;
+    background: var(--primary-btn-bg);
+    color: var(--primary-btn-color);
   }
 
   .drop-menu li {

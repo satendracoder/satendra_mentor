@@ -1,9 +1,10 @@
 import { Component, ElementRef, HostListener, inject, Renderer2, ViewChild } from '@angular/core';
 import { MaterialListModule } from '../../../shared/material-list/material-list.module';
 import { Router } from '@angular/router';
-import { BodythemeService } from '../../../core/services/theme/bodytheme.service';
+
 import { MatDialog } from '@angular/material/dialog';
 import { ContactUsComponent } from '../../../shared/components/contact-us/contact-us.component';
+import { ThemeService } from '../../../core/services/theme/theme.service';
 
 
 @Component({
@@ -21,7 +22,7 @@ export class MenuCardComponent {
   isDarkMode: boolean = true;
   autherDetails: any = [];
 
-  constructor(public themeService: BodythemeService,
+  constructor(public themeService: ThemeService,
     private renderer: Renderer2
   ) { }
 

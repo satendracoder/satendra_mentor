@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { MaterialListModule } from '../../../shared/material-list/material-list.module';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-blog-card',
   standalone: true,
-  imports: [],
+  imports: [MaterialListModule, CommonModule],
   templateUrl: './blog-card.component.html',
   styleUrl: './blog-card.component.scss'
 })
@@ -38,6 +40,6 @@ export class BlogCardComponent {
       blog_url: "/ssbr_inet_hub"
     },
 
-
   ]
+  
 }
