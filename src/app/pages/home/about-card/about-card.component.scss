@@ -1,6 +1,6 @@
 .banner {
     width: 100%;
-    // background-color: transparent;
+    background-color: var(--secondary-bg);
     padding-top: 60px;
     display: flex;
     justify-content: space-around;
@@ -16,13 +16,13 @@
     animation: fadeInUp 0.9s ease-in-out forwards;
 }
 
-.text-container h1{
-  
+.text-container h2{
     padding-top: 20px;
     position: relative;
+    color: #fff;
 }
 
-.text-container h1::before {
+.text-container h2::before {
     content: '';
     position: absolute;
     left: 0;
@@ -55,11 +55,12 @@
 
 .text-container p {
     padding: 20px 0px;
+    color: #fff;
 }
 
 .text-container .btn-banner {
     background:#25d366;
-    padding: 8px 14px;
+    padding: 10px 14px;
     border-radius: 5px;
     font-size: 20px;
     border: none;
