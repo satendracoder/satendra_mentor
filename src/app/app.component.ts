@@ -10,7 +10,7 @@ import AOS from 'aos';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
- 
+  title="Satendra Rajput";
   ngOnInit(): void {
     AOS.init({
       duration: 800,

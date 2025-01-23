@@ -13,12 +13,12 @@
             </label>
 
             <li><a href="">Home</a></li>
-            <li><a href="">Professional Skills</a></li>
+            <li><a href="/#Professional">Professional Skills</a></li>
 
-            <li><a href="">Projects</a></li>
-            <li><a href="">Testimonials</a></li>
+            <li><a href="/projects_list" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: false }">Projects</a></li>
+            <li><a href="/#testimonials">Testimonials</a></li>
             <li><a href="/about_page">About us</a></li>
-            <li><a href="#blogs">Blog</a></li>
+            <li><a href="/blog_list">Blog</a></li>
             <li (click)="toggleTheme()" style="cursor: pointer; padding-top: 5px;">
                 @if (isDarkMode) {
                 <mat-icon>light_mode</mat-icon>

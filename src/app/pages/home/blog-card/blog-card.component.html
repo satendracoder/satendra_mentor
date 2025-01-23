@@ -1,11 +1,11 @@
 <section class="blog-container" >
   <div class="heading">
-    <h2>Blog The company I worked for</h2>
-    <!-- <button class="button" style="padding: 0px 10px !important;">All Blogs </button> -->
+    <h2>Blog of company</h2>
+    <button class="btn"><a href="/blog_list" style="color:#fff;">All Blogs </a></button>
   </div>
 
   <div class="blog-section">
-    <h2 class="section-title">Latest Blogs</h2>
+    <!-- <h2 class="section-title">Latest Blogs</h2> -->
     <div class="blog-grid">
       <div class="blog-card" *ngFor="let blog of Blog_data">
         <div class="blog-image">
@@ -14,7 +14,7 @@
         <div class="blog-content">
           <h3>{{ blog.blog_title }}</h3>
           <p>{{ blog.blog_description }}</p>
-          <a [href]="blog.blog_url" target="_blank" class="button">Read More</a>
+          <a [href]="blog.blog_url" target="_blank" class="btn">Read More</a>
         </div>
       </div>
     </div>

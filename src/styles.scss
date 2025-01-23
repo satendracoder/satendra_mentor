@@ -36,6 +36,10 @@ $satendra_rajput-theme: mat.define-theme((color: (theme-type: light,
   margin: 0%;
 }
 
+.active{
+  background-color: var(--primary-btn-bg) !important;
+  color: aquamarine !important;
+}
 html,
 body {
   height: 100%;

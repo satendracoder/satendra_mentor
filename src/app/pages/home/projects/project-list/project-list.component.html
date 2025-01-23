@@ -1,11 +1,11 @@
+<app-menu-card></app-menu-card>
 <section class="paid-container" style="background-color: var(--primary-bg);">
     <div class="heading">
         <h2>Worked on this projects</h2>
-        <button class="btn"><a href="/projects_list" style="color:#fff;"> All Projects </a></button>
     </div>
     <div class="paid-row">
         @defer (on viewport) {
-        @for (item of PaidCourse; track item) {
+        @for (item of PaidCourse; track $index) {
         <div class="paid-card">
             <div class="courseImg" [ngStyle]="{'background-image': 'url(' + item.imgName + ')'}">
                 <!-- <img [src]="item.imgName" alt="" srcset=""> -->
@@ -20,7 +20,8 @@
 
             <div class="paid-footer">
                <button class="btn"><a [href]="item.LinkLive" target="_blank" style="color: #fff;">Live</a></button>
-                <button class="btn"><a [href]="item.Github" target="_blank" style="color: #fff;">GitHub_Links</a></button>
+               <button class="btn"><a [href]="item.LinkLive" target="_blank" style="color: #fff;">Article</a></button>
+                <button class="btn"><a [href]="item.Github" target="_blank" style="color: #fff;">GitHub</a></button>
             </div>
         </div>
         }

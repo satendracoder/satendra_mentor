@@ -11,6 +11,8 @@ import { Company2Component } from './pages/blogs/company-2/company-2.component';
 import { Company3Component } from './pages/blogs/company-3/company-3.component';
 import { Company4Component } from './pages/blogs/company-4/company-4.component';
 import { Company5Component } from './pages/blogs/company-5/company-5.component';
+import { ProjectListComponent } from './pages/home/projects/project-list/project-list.component';
+import { BlogListComponent } from './pages/home/blog-list/blog-list.component';
 
 export const routes: Routes = [
     { path: '', component: IndexPageComponent },
@@ -29,4 +31,8 @@ export const routes: Routes = [
             { path: 'company_5', component: Company5Component, title: 'Company-5' }
         ]
     },
+
+    {path:'projects_list', component:ProjectListComponent, title:"All Projects List with live"},
+    {path:'blog_list', component:BlogListComponent, title:"All Blogs"}
+
 ];

@@ -1,7 +1,7 @@
 // Buttons
-.button {
-    display: inline-block;
-    padding: 5px 14px;
+.btn {
+    //display: inline-block;
+    padding: 5px 14px !important;
     font-size: $font-size-base;
     color: var(--primary-btn-color);
     background-color: var(--primary-btn-bg);
@@ -9,7 +9,7 @@
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-    transition: .5s;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
   
     &:hover {
     color: #fff !important;

@@ -8,7 +8,6 @@ import { FooterCardComponent } from '../pages/home/footer-card/footer-card.compo
 import { ExperienceComponent } from '../pages/home/experience/experience.component';
 import { TestimonialCardComponent } from '../pages/home/testimonial-card/testimonial-card.component';
 import { BlogCardComponent } from "../pages/home/blog-card/blog-card.component";
-import { CodeLekhakComponent } from "../pages/home/code-lekhak/code-lekhak.component";
 
 @Component({
   selector: 'app-index-page',
@@ -22,8 +21,7 @@ import { CodeLekhakComponent } from "../pages/home/code-lekhak/code-lekhak.compo
     ExperienceComponent,
     FooterCardComponent,
     TestimonialCardComponent,
-    BlogCardComponent,
-    CodeLekhakComponent
+    BlogCardComponent
 ],
   templateUrl: './index-page.component.html',
   styleUrl: './index-page.component.scss'

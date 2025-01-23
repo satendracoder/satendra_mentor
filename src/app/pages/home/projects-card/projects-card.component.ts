@@ -25,6 +25,7 @@ export class ProjectsCardComponent {
       categories: "Created visually appealing design pages for PPF designs and implemented detailed car listings",
       Github: "https://github.com/satendra-rajput",
       LinkLive: "https://eazycool.com.sg/",
+      company:"Webconvoy Pvt.Ltd"
     },
 
     {
@@ -32,23 +33,25 @@ export class ProjectsCardComponent {
       TitleName: "Gaming Website",
       categories: "Implemented advanced authentication features, including secure login, forget password, and reset password pages",
       Github: "https://github.com/satendra-rajput",
-      LinkLive: "https://poker9club.com/sign-in",
+      LinkLive: "https://www.poker9club.com/login",
+      company:"Webconvoy Pvt.Ltd"
     },
 
     {
       imgName: "/assets/images/projects/redmil.png",
       TitleName: "Make Admin for B2B Business",
       categories: " Developed secure login and password, user profiles, detailed transaction and statements pages, QR Code integration, and advanced product etc.",
-      Github: "https://github.com/satendra-rajput",
+      Github: "https://github.com/satendracoder",
       LinkLive: "https://redmilbusinessmall.com/admin/Default.aspx",
+      company:"Redmil Business Mall"
     },
     {
-      imgName: "/assets/images/projects/learning-e.png",
-      TitleName: "Learning Website with Admin",
+      imgName: "/assets/images/projects/fintech_web.png",
+      TitleName: "Fintech B2B Website for APES, Recharge and etc.",
       categories: "Implemented authentication and authorization mechanisms to secure applications.",
-      Github: "https://code-lekhak-free.vercel.app/",
-      LinkLive: "https://code-lekhak-free.vercel.app/",
+      Github: "https://github.com/satendracoder",
+      LinkLive: "https://web.redmilbusinessmall.com",
+      company:"Redmil Business Mall"
     },
-
   ]
 }
