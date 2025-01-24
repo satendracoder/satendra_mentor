@@ -19,7 +19,6 @@ export const routes: Routes = [
 
     {
         path: '', component: BlogLayoutComponent, children: [
-            { path: 'about_page', component: AboutPageComponent, title: 'About us' },
             { path: 'redmil_business_mall', component: RedmilComponent, title: 'Redmil_Business_Mall ' },
             { path: 'webconvoy_pvt_Ltd', component: WebconvoyComponent, title: 'webconvoy_pvt_ltd' },
             { path: 'caria_electronic', component: CariaComponent, title: 'Caria_Electronic' },

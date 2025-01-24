@@ -3,11 +3,11 @@
     <div class="heading">
       <h2>All Blogs</h2>
     </div>
-  
+
     <div class="blog-section">
       <!-- <h2 class="section-title">Latest Blogs</h2> -->
       <div class="blog-grid">
-        <div class="blog-card" *ngFor="let blog of Blog_data">
+        <div class="blog-card" *ngFor="let blog of Blog_data" (click)="redirectRoute(blog.blog_url)">
           <div class="blog-image">
             <img [src]="blog.blog_image" [alt]="blog.blog_title" />
           </div>

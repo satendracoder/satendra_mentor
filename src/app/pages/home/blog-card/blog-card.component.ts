@@ -14,32 +14,32 @@ export class BlogCardComponent {
 
   Blog_data = [
     {
-      blog_image: "assets/images/projects/download.jpeg",
-      blog_title: "Redmil Business Mall",
-      blog_description: "Redmil Business Mall is a leading business mall in the city.",
+      blog_image: "/assets/images/projects/ppf-image.png",
+      blog_title: "Paint Protecation flim(PPF)",
+      blog_description: "Created visually appealing design pages for PPF designs and implemented.",
       blog_url: "/redmil_business_mall"
     },
     {
-      blog_image: "/assets/images/projects/webconvoy.jpeg",
-      blog_title: "Webconvoy Pvt Ltd",
-      blog_description: " Webconvoy Pvt Ltd is dedicated to mobile and web application............",
-      blog_url: "/webconvoy_pvt_Ltd"
+      blog_image: "/assets/images/projects/gaming.png",
+      blog_title: "Gaming Website (Poker9club)",
+      blog_description: "Implemented advanced authentication features, including secure login, forget.........",
+      blog_url: "/Poker9club"
     },
 
     {
-      blog_image: "/assets/images/projects/caria.jpg",
-      blog_title: "Caria electronic",
-      blog_description: "Manufacture of electronic valves and tubes and other electronic.............",
-      blog_url: "/caria_electronic"
+      blog_image: "/assets/images/projects/redmil.png",
+      blog_title: "Make Admin for B2B Business",
+      blog_description: "Developed secure login and password, user profiles, detailed transaction..........",
+      blog_url: "/redmil"
     },
 
     {
-      blog_image: "/assets/images/projects/learning-e.png",
-      blog_title: "Ssbr iNet Hub",
-      blog_description: "Ssbr-iNet is an online training provider with the most effective learning.....",
-      blog_url: "/ssbr_inet_hub"
+      blog_image: "/assets/images/projects/fintech_web.png",
+      blog_title: "Fintech B2B Website for APES, Recharge",
+      blog_description: "Implemented authentication and authorization mechanisms to secure applications.....",
+      blog_url: "/fintech_web"
     },
 
   ]
-  
+
 }
