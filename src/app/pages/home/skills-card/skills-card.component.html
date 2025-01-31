@@ -1,34 +1,23 @@
 <div class="skills-container" id="Professional">
+
+  <div class="skills-heading">
+    <h1>Professional Skills </h1>
+    <p>Skilled in HTML, CSS, JavaScript, and TypeScript, with expertise in Angular for building dynamic front-end
+      applications. Proficient in Java, Spring Boot, Node.js, and Express for backend development..</p>
+  </div>
+
   <div class="skills-row">
     <div class="skills">
-      <div class="skills-heading">
-        <h1>Professional Skills </h1>
-        <p>Skilled in HTML, CSS, JavaScript, and TypeScript, with expertise in Angular for building dynamic front-end
-          applications. Proficient in Java, Spring Boot, Node.js, and Express for backend development, with experience in MongoDB
-          and MySQL for database management. Passionate about creating efficient, scalable, and user-friendly web
-          applications..</p>
-      </div>
-      <div class="skills-image">
-        <div class="iconsImage" title="HTML"><img src="/assets/images/Html-modified.png" alt="HTML"></div>
-        <div class="iconsImage"><img src="/assets/images/css-modified.png" alt="HTML"></div>
-        <div class="iconsImage"><img src="/assets/images/js-modified.png" alt="HTML"></div>
-        <div class="iconsImage"><img src="/assets/images/ts-modified.png" alt="HTML"></div>
-        <div class="iconsImage"><img src="/assets/images/Angular-modified.png" alt="HTML"></div>
-      </div>
 
-      <div class="skills-image">
-        <div class="iconsImage"><img src="/assets/images/java-modified.png" alt="Java"></div>
-        <div class="iconsImage"><img src="/assets/images/Spring Boot-modified.png" alt="Spring Boot"></div>
-        <div class="iconsImage"><img src="/assets/images/Nodejs-modified.png" alt="Node js"></div>
-        <div class="iconsImage"><img src="/assets/images/express-modified.png" alt="Express"></div>
-        <div class="iconsImage"><img src="/assets/images/mysql-modified.png" alt="MySQL"></div>
+      <div *ngFor="let skill of skills" class="iconsImage" [class.active]="selectedSkill.name === skill.name"
+      (click)="onSkillClick(skill)">
+        <img [src]="skill.image" [alt]="skill.name">
       </div>
-
-      <div class="skills-image">
-        <div class="iconsImage"><img src="/assets/images/mongodb-modified.png" alt="MongoDB"></div>
-      </div>
-
     </div>
-    <div class="skills"></div>
+    <div class="skills-content">
+      <h2>{{ selectedSkill?.name || 'Skill Details' }}</h2>
+      <p>{{ selectedSkill?.description || 'Select a skill from the left to see details here.' }}</p>
+    </div>
   </div>
+
 </div>

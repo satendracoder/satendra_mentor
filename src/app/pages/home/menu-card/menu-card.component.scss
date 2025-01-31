@@ -207,14 +207,14 @@ mat-icon {
   border-radius: 5px !important;
 }
 
-.wrapper .btn {
+.wrapper .btnn {
   color: var(--primary-color);
   font-size: 20px;
   cursor: pointer;
   display: none;
 }
 
-.wrapper .btn.close-btn {
+.wrapper .close-btn {
   position: absolute;
   right: 30px;
   top: 10px;
@@ -226,7 +226,7 @@ mat-icon {
     padding: 0px 0px;
   }
 
-  .wrapper .btn {
+  .wrapper .btnn {
     display: block;
     padding-right: 25px;
     margin-top: 6px;
@@ -289,12 +289,12 @@ mat-icon {
     left: 0%;
   }
 
-  #menu-btn:checked~.btn.menu-btn {
+  #menu-btn:checked~.btnn .menu-btn {
     display: block;
     color: var(--primary-color);
   }
 
-  #close-btn:checked~.btn.menu-btn {
+  #close-btn:checked~.btnn.menu-btn {
     display: block;
     color: var(--primary-color);
   }
